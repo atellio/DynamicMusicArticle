@@ -8,10 +8,10 @@ public class MusicSystem
 
 
     public Start()
-	{
+    {
         shouldGameMusicBePlaying = true;
         StartCoroutine(PlayGameMusic());
-	}
+    }
 
     IEnumerator PlayGameMusic()
     {
